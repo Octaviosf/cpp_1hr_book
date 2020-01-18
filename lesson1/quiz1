@@ -2,9 +2,18 @@
 
 2. The linker creates a machine readable executable file from the compiled program.
 
+2A. The linker is actually responsible for creating links from your program file to dependencies on libraries and functions in other code files for the purposes of compiling and creating an executable object file that integrates these dependencies directly and indirectly coded by the programmer. 
+
 3. step1) Write your program
    step2) Debug 
    step3) Compile your program
    step4) Link the program
    step5) Execute the program
 
+3A. step1) Code
+	step2) Compile code to create object file
+	step3) Link code to create executable
+	step4) Execute to test
+	step5) Debug
+	step6) Fix errors in code
+	step7) Repeat steps 1-6
