@@ -1,0 +1,10 @@
+1. An interpreter directly reads the code syntax from the file and translates it into actions for the machine to run. A compiler first translates the code syntax into machine language (binary) and creates an output executable file using the translation. This translation (executable) can be run on the machine directly, without any translation needed again. The translation is only done once. This allows users to run a program much faster, once the program has been compiled of course.
+
+2. The linker creates a machine readable executable file from the compiled program.
+
+3. step1) Write your program
+   step2) Debug 
+   step3) Compile your program
+   step4) Link the program
+   step5) Execute the program
+
