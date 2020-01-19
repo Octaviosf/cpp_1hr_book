@@ -1,0 +1,20 @@
+1. A signed integer has a minimum value of -(2^31) where the 
+most-important-bit (MIB) is used to denote the sign (hence 2^31 rather 
+than 2^32). The unsigned integer will a maximum value of 2*|-(2^31)|,
+and will have no negative numbers.
+
+2. Using #define to declare a constant is incorrect because #define is now 
+deprecated. Also, #define is a preprocessor macro which replaces all 
+instances of its "arg1" with the value given in "arg2"; it does not care 
+about the type of "arg1" because the replacement is non-intelligent - based
+upon simple text replacement rather than using compile-time optimization - 
+as used by the constant expression constexpr.
+
+3. I would initizialize a variable to assign an unambiguous value to the 
+memory address stored by the variable name - if not, there may be a 
+seemingly random number stored in that memory address. 
+
+4. 2
+
+5. It uses a reserved keyword.
+
